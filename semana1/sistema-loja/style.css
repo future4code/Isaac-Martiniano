@@ -1,0 +1,60 @@
+body {
+    background-color:#E6E6E6;
+}
+/* Formatação dos cabeçalhos */
+.logo {
+    width:300px;
+    
+    padding-right: 1200px;
+}
+a {
+    text-align: right;
+    text-decoration: none;
+}   
+a:hover {
+    background: red; 
+    color: olive;
+} 
+.cabecalho {
+    background-color: yellow;
+    padding: 10px;
+}
+.cabecalho, a{
+    
+    text-align: right;
+}
+
+.boas-vindas {
+    text-align: center;
+}
+/* Formatação do form na pagina adicionar produtos*/
+#form-add-produto {
+    
+    background-color: orange;
+    text-align: center;
+    margin: 100px auto;
+    padding: 200px 200px;   
+}
+
+/* Formatação do form na pagina adicionar produtos*/
+#lista-funcionarios {
+    font-size: 24px;
+    text-align: center;
+    background-color: lawngreen;
+    display: inline-block;
+    margin:30px 300px;
+    position: relative;
+    padding: 100px;
+
+
+}
+
+#section{
+    text-align: center;
+}
+.rodape {
+    background-color: #191717;
+    padding: 30px;
+    text-align: center;
+    color:bisque;
+}

@@ -3,24 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=S, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Funcionários</title>
 </head>
 <body>
 
-    <table border="0" width="100%" align="center">
+    <div class="cabecalho">
+        <img class="logo" src="imgens/logo.png">
 
-        <tr>
-            <td><img src="imgens/logo.png"></td>
-            <td align="right">
-                <a href="index.html">Home</a>&nbsp&nbsp&nbsp&nbsp
-                <a href="controle-de-estoque.html">Controle de Estoque</a>&nbsp&nbsp&nbsp&nbsp
-	            <a href="funcionarios.html">Funcionários</a>
-            </td>
-        </tr>
-    </table> 
-
-    <h2>Nossos Funcionários</h2>
-	<ul type="disc">
+        <a href="index.html">Home</a>&nbsp&nbsp&nbsp&nbsp
+        <a href="controle-de-estoque.html">Controle de Estoque</a>&nbsp&nbsp&nbsp&nbsp
+        <a href="adicionar-produto.html">Add Produtos</a>
+        
+          
+    </div>
+    <span>
+    <h1 class="boas-vindas">Nossos Funcionários</h1>
+	<ul id="lista-funcionarios" type="disc">
         <li><strong>Astrogildo Bezzera</strong><br>
             Data de Nascimento : 22/10/1980<br>
             Cargo: Gerente</li>
@@ -41,7 +40,12 @@
             Data de Nascimento : 24/04/1982<br>
             Cargo: Atendente</li>
 		
-	</ul>
+    </ul>
+    </span>
+    <div class="rodape">
+        <p>&copy; Todos os direitos reservados - 2020 iMartiniano  <p>
+
+   </div>
 
 </body>
 </html>
