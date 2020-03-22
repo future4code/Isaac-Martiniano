@@ -3,39 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
     <title>Projeto Future4 - Isaac Martiniano</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style-future4.css" />
 </head>
 <body>
-    <div id="header">
+    <div id="container"><!-- início container -->
+        <header ><!-- início header -->
+            <div id="logo">
+                <h1><a href="#">iMartiniano</a></h1>
+            </div>
+            
+            <nav><!-- início nav -->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#projetos">Projetos</a></li>
+                    <li><a href="biografia.html">Biografia</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav><!-- /fim nav -->
+        </header><!-- /fim header  -->
+
+        <div id="principal">
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="imagens/future.png">
+                </section>
+            </div>
+            
+        </div>
+            <div>
+                <h2 id="sobre-mim">Future4</h2>
                
-        <img id="topo" src="imagens/topo.png"alt="">
-        
-        <div id="menu">
-            <a class="links" href="index.html">HOME</a>&nbsp&nbsp&nbsp&nbsp
-            <a class="links" href="biografia.html">BIOGRAFIA</a>&nbsp&nbsp&nbsp&nbsp
-            <a class="links" href="contato.html">CONTATO</a>  
-        </div>
-        
-        <div>
-            <a href="index.html"><img id="logo" src="imagens/logo.png"alt=""></a>
-        </div>
+                <p id="introducao">
+                    Projeto realizado para um processo seletivo na ingressão do curso Web Full Stack da 
+                    <strong>Future4</strong> nele foi utilizado HTML5 CSS3 e JS.         
+                </p>
+
+            </div>
+
+            <div id="projetos">
+                <h2>Projetos</h2>
+            </div>
+            <div>    
+                <table>
+                    <tr>
+                    <td><a class="zoom" href="projeto-future4.html"><img src="imagens/future.png"></a></td>
+                    <td><a class="zoom" href="projeto-anob.html"><img src="imagens/anob.png"></a></td>
+                    <td><a class="zoom" href="projeto-unes.html"><img src="imagens/unes.png"></a></td>
+                    <td><a class="zoom" href="projeto-epi.html"><img src="imagens/epi.png"></a></td>
+                </tr>
+                </table>
+            </div> 
+
+        <footer class="rodape">
+            <p>
+                <a href="index.html">Home</a>
+                <a href="index.html#projetos">Projetos</a>
+                <a href="biografia.html">Biografia</a>
+                <a href="contato.html">Contato</a>
+            </p>
+            <br>
+            <p>
+                Copyrigth &copy; 2020 <a href="#">iMartiniano</a> - Todos os direitos reservados
+            <p>
     
-    </div>
+        </footer>
+
         
-    
-    <h4>Projeto Future4</h4>
-
-    <div class="texto-projeto">
-        <p>Site criado para um processo seletivo para o curso web full stack na FUTURE4 usando HTML5 e CSS3 e um pouco de js</p>
-    </div>  
-
-        <img class="projeto-foto" src="imagens/future.png" >
-
-    <div class="rodape">
-        <p>&copy; Todos os direitos reservados - 2020 iMartiniano  <p>
-
-   </div>
+    </div><!--/fim container -->
   
 </body>
 </html>

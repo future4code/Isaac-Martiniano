@@ -3,54 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
     <title>Portifólio - Isaac Martiniano</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style-contato.css" />
 </head>
 <body>
-    <div id="header">
-               
-        <img id="topo" src="imagens/topo.png"alt="">
-        
-        <div id="menu">
-            <a class="links" href="index.html">HOME</a>&nbsp&nbsp&nbsp&nbsp
-            <a class="links" href="biografia.html">BIOGRAFIA</a>
-        </div>
-
-        
-
-           
-    
-       
-        <div>
-            <a href="index.html"><img id="logo" src="imagens/logo.png"alt=""></a>
-        </div>
-    
-    </div>
-        
-    <div id="principal">
-        
-        <h4>Contato</h4>
-
-        <form>
-                            
-            Nome: <br>
-            <input type="text" name="name"><br>
-            Email: <br>
-            <input type="email" name="valor"><br>
+    <div id="container"><!-- início container -->
+        <header ><!-- início header -->
+            <div id="logo">
+                <h1><a href="#">iMartiniano</a></h1>
+            </div>
             
-            <br>
-            Assunto: <br>
-            <textarea></textarea><br>
-            <input type="submit" value="Enviar"><br>
+            <nav><!-- início nav -->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#projetos">Projetos</a></li>
+                    <li><a href="biografia.html">Biografia</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav><!-- /fim nav -->
+        </header><!-- /fim header  -->
+
+            <div>
+                <h2 id="sobre-mim">Contato</h2>
+               
+                <div >
         
-        </form>
+                    <form>
+                                        
+                        Nome: <br>
+                        <input type="text" name="name"><br>
+                        Email: <br>
+                        <input type="email" name="valor"><br>
+                        
+                        <br>
+                        Assunto: <br>
+                        <textarea></textarea><br>
+                        <input id="button" type="submit" value="Enviar"><br>
+                    
+                    </form>
+
+                            
+                </div>
                 
-    </div>
+            </div>
 
-    <div class="rodape">
-        <p>&copy; Todos os direitos reservados - 2020 iMartiniano  <p>
+            <div >
+                <table id="icones">
+                    <tr>
+                        <td><a class="social" href="https://www.linkedin.com/in/isaac-martiniano-aa799a147/"><img src="imagens/social1.png"></a></td>
+                        <td><a class="social" href="https://www.facebook.com/isaac.martiniano"><img src="imagens/social2.png"></a></td>
+                        <td><a class="social" href="https://www.instagram.com/isaacmartiniano/?hl=pt-br"><img src="imagens/social3.png"></a></td>
+                        <td><a class="social" href="#"><img src="imagens/social4.png"></a></td>
+                        <td><a class="social" href="#"><img src="imagens/social5.png"></a></td>
+                        <td><a class="social" href="#"><img src="imagens/social6.png"></a></td>
+                        
+                    </tr>
+                </table>
+            </div>
+        <footer class="rodape">
+            <p>
+                <a href="index.html">Home</a>
+                <a href="index.html#projetos">Projetos</a>
+                <a href="biografia.html">Biografia</a>
+                <a href="contato.html">Contato</a>
+            </p>
+            <br>
+            <p>
+                Copyrigth &copy; 2020 <a href="#">iMartiniano</a> - Todos os direitos reservados
+            <p>
+    
+        </footer>
 
-   </div>
+        
+    </div><!--/fim container -->
+
+        
+    <!--
+-->
   
 </body>
 </html>
