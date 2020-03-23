@@ -124,6 +124,10 @@ td button:hover {
     margin-top: 20px;
     height: 100px;
 }
+.container-do-search div input {
+    border: 0px;
+    border-bottom: 3px solid;
+}
 
 
 #back-button {
