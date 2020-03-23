@@ -87,6 +87,9 @@ div>p:first-child {
     padding: 100px 0;
     font-size: 60px;
 }
+div ol li {
+    padding: 0;
+}
 
 
 
