@@ -11,64 +11,75 @@
   <body>
      <div>
       <label for="Nova Tarefa"></label>
-      <input type="text" name="novatarefa" id="novaTarefa">
-      <select name="diaSemana" id="diaSemana">
+      <input type="text" name="novatarefa" placeholder="Adicione uma nova tarefa" id="novaTarefa" onfocus="this.value='';">
+      <select name="diaSemana" id="dia-da-semana">
         <option value="domingo">Domingo</option>
         <option value="segunda">Segunda</option>
-        <option value="terça">Terça</option>
+        <option value="terca">Terça</option>
         <option value="quarta">Quarta</option>
         <option value="quinta">Quinta</option>
         <option value="sexta">Sexta</option>
         <option value="sabado">Sábado</option>
-
       </select>
+      <button id="botao" onclick="adicionarTarefa()">Criar Tarefa</button>
     </div>
+
+    <div id="domingo">
+      <h2>Domingo</h2>
+      <ul>
+
+      </ul>
+    </div> 
    
     
-    <div>
-      <h2>Terça Feira</h2>
-      <ul id="terca">
+    <div id="segunda">
+      <h2>Segunda</h2>
+      <ul>
+      
+      </ul>  
     </div> 
 
-    <div>
-      <h2>Terça Feira</h2>
-      <ul id="terca">
-    </div> 
+    <div id="terca">
+      <h2>Terça</h2>
+      <ul>
 
-    <div>    
       </ul>
-      <h2>Quarta Feira</h2>
-      <ul id="quarta">
-    </div>
+    </div> 
 
-    <div>
-      <h2>Terça Feira</h2>
-      <ul id="terca">
+    <div id="quarta">
+      <h2>Quarta</h2>
+      <ul>
+
+      </ul>
+    </div> 
+
+    <div id="quinta">
+      <h2>Quinta</h2>
+      <ul>
+
+      </ul>
     </div> 
     
-    <div>    
-      </ul>
-      <h2>Quarta Feira</h2>
-      <ul id="quarta">
-    </div>
+    <div id="sexta">
+      <h2>Sexta</h2>
+      <ul>
 
-    <div>
-      <h2>Terça Feira</h2>
-      <ul id="terca">
+      </ul>
     </div> 
 
-    <div>    
-      </ul>
-      <h2>Quarta Feira</h2>
-      <ul id="quarta">
-    </div>
+    <div id="sabado">
+      <h2>Sábado</h2>
+      <ul>
 
-   
+      </ul>
+    </div> 
+
+    
 
       
 
 
-    </div>
+    
 
 
   </body>
