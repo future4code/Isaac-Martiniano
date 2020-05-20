@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 
-function FormPage() {
+const CreateTripPage = () => {
    const homePage = useHistory();
 
    const goToHomePage = () => {
@@ -9,10 +9,10 @@ function FormPage() {
    }
   return (
     <div>
-        <h1>Formulário para Viagem</h1>
+        <h1>Criar Viagens:</h1>
         <button onClick={goToHomePage}>Voltar pra Home</button>
         
     </div>
   )
 }
-export default FormPage;
+export default CreateTripPage;

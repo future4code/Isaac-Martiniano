@@ -1,25 +1,18 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 
-function LoginPage() {
+const FormPage = () => {
    const homePage = useHistory();
 
    const goToHomePage = () => {
        homePage.push("/")
    }
-
-   const criarVigem = useHistory();
-
-   const goToCreateTripPage = () => {
-     criarVigem.push("/trips/create")
-   }
   return (
     <div>
-        <h1>Página de login do ADM</h1>
+        <h1>Formulário para Viagem</h1>
         <button onClick={goToHomePage}>Voltar pra Home</button>
-        <button onClick={goToCreateTripPage}>Criar Viagem</button>
         
     </div>
   )
 }
-export default LoginPage;
+export default FormPage;

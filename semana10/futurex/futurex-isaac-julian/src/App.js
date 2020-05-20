@@ -1,9 +1,12 @@
 import React from 'react';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
-import HomePage from './HomePage/HomePage';
-import LoginPage from './LoginPage/LoginPage';
-import FormPage from './FormPage/FormPage';
-import CreateTripPage from './Pages/CreateTripPage';
+import HomePage from './Pages/HomePage/HomePage';
+import LoginPage from './Pages/LoginPage/LoginPage';
+import FormPage from './Pages/FormPage/FormPage';
+import CreateTripPage from './Pages/CreateTripPage/CreateTripPage';
+import AdmHomePage from './Pages/AdmHomePage/AdmHomePage';
+import TripsDetailsPage from './Pages/TripsDetailsPage/TripsDetailsPage';
+import ListTripsPage from './Pages/ListTripsPage';
 
 const App = () => {
   return (
@@ -20,6 +23,15 @@ const App = () => {
         </Route>
         <Route exact path="/trips/create">
           <CreateTripPage/>
+        </Route>
+        <Route exact path="/login/adm-home">
+          <AdmHomePage/>
+        </Route>
+        <Route exact path="/trips/details">
+          <TripsDetailsPage/>
+        </Route>
+        <Route exact path="/trips/list">
+          <ListTripsPage/>
         </Route>
 
         <Route path="/">
