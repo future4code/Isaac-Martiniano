@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
+import SectionDetailsTrips from './components/SectionDetailsTrips';
+
 
 const TripsDetailsPage = () => {
    const homePage = useHistory();
@@ -7,22 +9,18 @@ const TripsDetailsPage = () => {
    const goToHomePage = () => {
        homePage.push("/")
    }
+ 
+   useEffect(() => {
+    const token = localStorage.getItem('token');
+
+    if(token === null){
+      homePage.push("/")
+    }
+  },[homePage])
   return (
     <div>
-        <h1>Relação de viagens:</h1>
-
-        <h6>Marte</h6>
-        <h6>Mercúrio</h6>
-        <h6>Vênus</h6>
-        <h6>Júpiter</h6>
-        <h6>Saturno</h6>
-        <h6>Urano</h6>
-        <h6>Netuno</h6>
-        <h6>Upsilon Andromedae b.</h6>
-        <h6>Makemake</h6>
-
-        <button onClick={goToHomePage}>Voltar pra Home</button>
-        
+        <SectionDetailsTrips/>             
+        <button onClick={goToHomePage}>Voltar pra Home</button>        
     </div>
   )
 }
