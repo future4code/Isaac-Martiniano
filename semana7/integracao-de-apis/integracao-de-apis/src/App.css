@@ -1,0 +1,48 @@
+body{
+  background-color:aquamarine;
+} 
+.caixa-de-login {
+  text-align: center;
+  width: 300px;
+  margin:auto;
+  margin-top: 70px;
+  border: 3px solid royalblue;
+  padding-bottom: 20px;
+  background-color: sandybrown;
+}
+.botao-para-lista {
+  padding: 10px;
+  margin: 20px;
+  border-color:#f61f0e;
+  background:linear-gradient(to bottom, #fca8a1 5%, #f61f0e 100%);
+  box-shadow:inset 0px 1px 0px 0px #fff4f3;
+  color:#fff;
+  text-shadow:0px 1px 0px #528009; 
+}
+.botao-para-lista:hover {
+  background:linear-gradient(to bottom, #f61f0e 5%, #fca8a1 100%);
+}
+.rodape {
+  text-align: center;
+}
+.bt-cadastrar {
+  padding: 10px;
+  margin: 20px;
+    border-color:#eb48d0;
+    background:linear-gradient(to bottom, #3c2eb9 5%, #8c23b6 100%);
+    box-shadow:inset 0px 1px 0px 0px #fdf7f0;
+    color:rgb(219, 170, 35);
+    text-shadow:0px 1px 0px #a52c17;
+}
+.bt-cadastrar:hover {
+  background:linear-gradient(to bottom, #30d34b 5%, #b3cef7 100%);
+  }
+.area-curtir{
+  width: 40vw;
+  margin: auto;
+  text-align: center;
+  
+  
+  
+    
+}  
