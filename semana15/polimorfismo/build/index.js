@@ -1,15 +1,21 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const Dog_1 = require("./Dog");
-const Owl_1 = require("./Owl");
-const Fish_1 = require("./Fish");
-const dog = new Dog_1.Dog("bolinha");
-const owl = new Owl_1.Owl("edwiges");
-const fish = new Fish_1.Fish("Oscar");
-dog.move();
-owl.move();
-fish.move();
-console.log(dog);
-console.log(owl);
-console.log(fish);
+const Commerce_1 = require("./Commerce");
+const Residence_1 = require("./Residence");
+const Industry_1 = require("./Industry");
+const newCommerce = new Commerce_1.Commerce(3, "43434-234");
+const newResidence = new Residence_1.Residence(6, "54235-685");
+const newIndustry = new Industry_1.Industry(9, "22323-232");
+console.log(newCommerce);
+console.log(newResidence);
+console.log(newIndustry);
+const client = {
+    name: "Isaac",
+    registrationNumber: 7,
+    consumedEnergy: 77,
+    calculateBill: () => {
+        return 34;
+    }
+};
+console.log(client);
 //# sourceMappingURL=index.js.map
