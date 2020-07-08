@@ -1,0 +1,1 @@
+{"version":3,"file":"Commerce.js","sourceRoot":"","sources":["../src/Commerce.ts"],"names":[],"mappings":";;;AAAA,mCAAgC;AAEhC,MAAa,QAAS,SAAQ,aAAK;IAC/B,YACU,cAAsB,EAG9B,GAAW;QAEX,KAAK,CAAC,GAAG,CAAC,CAAC;QALH,mBAAc,GAAd,cAAc,CAAQ;IAMhC,CAAC;IACM,iBAAiB;QACpB,OAAO,IAAI,CAAC,cAAc,CAAC;IAC/B,CAAC;IACM,MAAM;QACX,OAAO,IAAI,CAAC,GAAG,CAAA;IACjB,CAAC;CACF;AAfH,4BAeG"}
